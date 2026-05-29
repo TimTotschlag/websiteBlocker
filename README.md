@@ -44,6 +44,7 @@ Entries are normalized automatically — you can paste a full URL like
 | `options.html` | Full-page management UI (reuses `popup.js`). |
 | `blocked.html` / `blocked.js` | The page shown when a blocked site is requested. |
 | `styles.css` | Shared styling for the popup and options page. |
+| `icons/` | Extension icons. |
 
 The block list lives under the `blockedSites` key in `chrome.storage.sync`.
 Whenever it changes, `background.js` rebuilds the dynamic blocking rules.
